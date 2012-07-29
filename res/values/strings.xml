@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">MyApp</string>
+    <string name="text2">username</string>
+    <string name="text1">Input Username:</string>
+    <string name="button_send">Submit</string>
+    <string name="title_activity_display_message">Alert</string>
+</resources>

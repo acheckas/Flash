@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+        >
+    <TextView
+            android:id="@+id/user_label"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/text1"
+            />
+    <EditText
+            android:id="@+id/edit_message"
+            android:inputType="textAutoCorrect"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            />
+    <Button
+            android:layout_height="wrap_content"
+            android:layout_width="100dip"
+            android:text="@string/button_send"
+            android:onClick="submitUsername"/>
+    <TextView
+            android:id="@+id/user_output"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:textColor="#101090"
+            />
+</LinearLayout>
+
